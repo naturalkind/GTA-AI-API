@@ -16,4 +16,6 @@ g++ cap_app_lib.cpp -o getcap -lX11 -lXext -Ofast -mfpmath=both -march=native -m
 ./getcap
 
 ```
+### Пример работы:
+![Иллюстрация к проекту](https://github.com/evilsadko/GTA-AI-API/blob/master/media/example.png)
 
