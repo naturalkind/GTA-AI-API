@@ -23,3 +23,4 @@ g++ cap_app_lib.cpp -o getcap -lX11 -lXext -Ofast -mfpmath=both -march=native -m
 https://stackoverflow.com/questions/38535809/how-can-i-access-a-graphics-cards-output-directly    
 https://docs-microsoft-com.translate.goog/en-us/windows/win32/gdi/capturing-an-image?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru    
 https://superkogito.github.io/blog/CaptureScreenUsingOpenCv.html    
+https://stackoverflow.com/questions/5069104/fastest-method-of-screen-capturing-on-windows    
