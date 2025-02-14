@@ -4,6 +4,7 @@
 
 # Зпуск:
 
+#### версия с opencv
 компиляция
 
 ```
@@ -16,6 +17,19 @@ g++ cap_app_lib.cpp -o getcap -lX11 -lXext -Ofast -mfpmath=both -march=native -m
 ./getcap
 
 ```
+#### версия с стандартными библиотеками X11 и GTK, работает быстрей!!!
+компиляция
+
+```
+g++ -std=c++17 xlib_capture.cpp -lX11 -lXext -O3 -o xlib_capture
+```
+
+старт 
+
+```
+./xlib_capture
+```
+
 ### Пример работы:
 ![Иллюстрация к проекту](https://github.com/evilsadko/GTA-AI-API/blob/master/media/example.png)
 
